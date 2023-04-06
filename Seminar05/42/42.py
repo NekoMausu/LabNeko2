@@ -35,3 +35,4 @@ def decompression(tx):
 
 data=open('file3.txt','r+')
 data.write(f'\n{compression(data.read())}')
+data.close
